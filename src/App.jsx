@@ -234,9 +234,9 @@ function Services() {
               </span>
               <h3>{service.title}</h3>
               <p>{service.text}</p>
-              <a href={`tel:${phoneNumber}`} aria-label={`Call about ${service.title}`}>
-                Ask about this
-                <ArrowUpRight size={17} />
+              <a href={whatsappUrl} target="_blank" rel="noreferrer" aria-label={`WhatsApp about ${service.title}`}>
+             
+                <ArrowUpRight size={17} />ask about this
               </a>
             </article>
           );
